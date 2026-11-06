@@ -5,6 +5,7 @@ import Link from "next/link";
 type FooterColumnProps = {
   title: string;
   children: React.ReactNode;
+  
 };
 
 const FooterColumn = ({ title, children }: FooterColumnProps) => {
@@ -27,7 +28,11 @@ const Footer = () => {
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((columns) => (
+<<<<<<< HEAD
               <FooterColumn title={columns.title} key={columns.title} >
+=======
+              <FooterColumn title={columns.title} key={columns.title}>
+>>>>>>> d5a4385 (fix type errors)
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
                     <Link href="/" key={link}>
