@@ -5,7 +5,6 @@ import Link from "next/link";
 type FooterColumnProps = {
   title: string;
   children: React.ReactNode;
-  
 };
 
 const FooterColumn = ({ title, children }: FooterColumnProps) => {
@@ -25,14 +24,10 @@ const Footer = () => {
           <Link href="/" className="mb-10">
             <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
           </Link>
-
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
+            {" "}
             {FOOTER_LINKS.map((columns) => (
-<<<<<<< HEAD
-              <FooterColumn title={columns.title} key={columns.title} >
-=======
               <FooterColumn title={columns.title} key={columns.title}>
->>>>>>> d5a4385 (fix type errors)
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
                     <Link href="/" key={link}>
@@ -42,7 +37,6 @@ const Footer = () => {
                 </ul>
               </FooterColumn>
             ))}
-
             <div className="flex flex-col gap-5">
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
@@ -59,7 +53,6 @@ const Footer = () => {
                 ))}
               </FooterColumn>
             </div>
-
             <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
