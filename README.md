@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hilink
 
-## Getting Started
+Hilink is a landing page for a travel and adventure app. It presents camp locations, app features, and download options in a clean layout that adapts to phones, tablets, laptops, and large desktop screens.
 
-First, run the development server:
+The project focuses on reusable components, a consistent design system, and clean, type-safe code.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Single-page layout with smooth, well-organized sections
+- Fully responsive on mobile, tablet, desktop, and ultra-wide screens
+- Reusable, typed React components (`Button`, `FooterColumn`, `FeatureItem`, and more)
+- Custom design system with Tailwind CSS v4 (`@theme` tokens and `@utility` classes)
+- Optimized images with `next/image`
+- Client-side navigation with `next/link`
+- Content kept in a single constants file for easy editing
+- Statically prerendered for fast loading
+- Deployed on Vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💻 Technologies used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+### Homepage
+![Hilink HomePage](./screenshots/homepage1.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Getting started
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Node.js](https://nodejs.org/) 18.18 or later
+- npm (comes with Node.js)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/Taha-bukhari/Hilink.git
+   ```
+
+2. Go into the project folder
+
+   ```bash
+   cd Hilink
+   ```
+
+3. Install the dependencies
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+
+## 🌐 Live Demo
+
+[https://your-project.vercel.app](https://hilink-henna.vercel.app/))
+
+## 👨‍💻 Author
+
+**Syed Taha Bukhari**
+
+- GitHub: [@Taha-bukhari](https://github.com/Taha-bukhari)
+- LinkedIn: [My LinkedIn Profile](https://linkedin.com/in/tahabukhari-a512702a8)
+- Email: tahabukhari175@gmail.com
